@@ -6,11 +6,19 @@ const path = require('path')
 
 module.exports = {
   dev: {
-
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    //接口对接的配置
+    proxyTable: {
+      '/api': {
+        target: "https://charge.xmnewlife.com",
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': '/api',
+        }
+      }
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

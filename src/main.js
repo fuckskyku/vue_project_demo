@@ -16,7 +16,7 @@ Vue.prototype.$store = store;
 Vue.config.productionTip = false
 
 router.beforeEach((to, from, next) => {
-  console.log('to',to,'from',from,'next',next)
+  console.log('to')
   var token = store.getters.gettoKen;
   console.log('token',token)
   if (token == '' || token == null) {

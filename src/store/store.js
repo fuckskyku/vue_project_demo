@@ -7,7 +7,7 @@ const state = {
   APPid: 'wx875dcc460cfe82ae',     //
   AppSecret: '88d8aa84e75f5976daf009191eece704',     //
   code: '',  //登录凭证
-  token: '',
+  token: '880A367FF38E46DF826C517294D8A386',
   family: { studentId: '', parentId: '', studentName: '' /*addisFull: ''*/ },
 }
 

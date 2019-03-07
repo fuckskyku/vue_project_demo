@@ -1,10 +1,12 @@
 <template>
-    <div>
-        mdzzindex
+    <div class="header">
+        mdzzheader
     </div>
 </template>
 
 <script>
+import { mapState, mapActions } from 'vuex'
+
 export default {
   data() {
     return {
