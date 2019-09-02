@@ -2,7 +2,7 @@ import req from './apiSetting'
 
 /**
  * 
- * @param {新活充电接口抛出}
+ * @param {喵喵充电接口抛出}
  */ 
 
 // 获取电站列表
